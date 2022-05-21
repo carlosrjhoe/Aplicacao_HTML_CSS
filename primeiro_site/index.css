@@ -50,6 +50,21 @@ body {
   clear: both;
 }
 
+.sidenote {
+  background-color: #FFFBE4;
+  border: 1px solid #C9BC8F;
+  padding: 10px;
+}
+
+.sidenote h3 {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.sidenote ol {
+  font-size: 12px;
+}
+
 .footer {
   color: #FFF;
   float: left;
