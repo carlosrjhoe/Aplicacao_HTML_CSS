@@ -58,3 +58,23 @@ h1::after {
   right: 0;
   top: -10px;
 }
+
+.help {
+  background-color: #f1efe6;
+  border: 1px solid #d3caed;
+  font-size: 0.9em;
+  padding: 10px;
+  position: relative;
+  width: 300px;
+}
+
+.help::before {
+  border-color: transparent #d3cdae;
+  border-style: solid;
+  border-width: 14px;
+  content: "";
+  left: -28px;
+  margin-top: -14px;
+  position: absolute;
+  top: 50%;
+}
